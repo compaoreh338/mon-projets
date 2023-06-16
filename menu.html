@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+
+        
+
+
+
+ header .sous li a {
+  display: block;
+  padding: 10px;
+  color: #f7e9e9;
+  font-size: 16px;
+  text-decoration: none;
+  list-style: none;
+}
+
+ header ul ul {
+  position: absolute;
+  top: 100%;
+  left: 300px;
+  background-color: #0b0b0b;
+  display: none;
+  
+  
+}
+
+header  li:hover> ul {
+  display: block;
+
+
+}
+
+header ul ul li {
+  width: 150px;
+  float: none;
+  display: block;
+  position: relative;
+  list-style: none;
+  
+  
+}
+header ul ul li ,{
+  position: relative;
+  top: -60px;
+  left: 200px;
+}
+
+
+    </style>
+</head>
+<body>
+    
+<header>
+    <a class="logo" href="#">Chari<span>Team</span></a>
+    <ul class="nav-bar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about2.html">About</a></li>
+        <li><a href="futur cause.html">Causes</a></li>
+    
+        <li class="sous"><a href="#">Pages</a>
+        <ul class="boss">
+          <li><a href="member.html">Members</a></li>
+          <li><a href="what bwe do.html">Services</a></li>
+          <li><a href="slider-1.html">Slides</a></li>
+          <li><a href="donernow.html">Doner Now</a></li>
+
+
+        </ul>
+        
+        </li>
+        
+        <li><a href="contact.html">Contact</a></li>
+        <button class="btn-donate-now">Donate Now<ion-icon class="icone_btn_donate"
+                name="arrow-forward-outline"></ion-icon></button>
+    </ul>
+</header>
+
+
+</body>
+</html>

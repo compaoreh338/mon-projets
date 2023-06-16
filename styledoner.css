@@ -1,0 +1,369 @@
+
+
+    /* debut de la class contener -------------------------------------*/
+    .contener {
+        background-image: url(th.jpeg);
+        width: 100%;
+        height: 600px;
+        margin-top: 150px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        margin-left: 30px;
+        overflow: hidden;
+
+
+
+
+    }
+
+    .contener h1 {
+
+        color: white;
+        width: 600px;
+    }
+
+    .contener .p {
+        font-size: 20px;
+        width: 400px;
+    }
+
+    .contener h1,
+    .contener p,
+    .contener button {
+        margin-top: 50px;
+    }
+
+    .contener button {
+        margin-left: 70px;
+        color: orange;
+        border-radius: 8px;
+        font-size: 40px;
+    }
+
+    .fiche {
+        float: right;
+        margin-top: -470px;
+        background-color: white;
+        width: 40%;
+        height: 300px;
+        margin-right: 30px;
+        border: 5px solid darkorange;
+        border-radius: 10px;
+        box-shadow: 0 .1rem 2rem yellow;
+        transition: .5s ease;
+    }
+
+    .fiche:hover {
+        box-shadow: 0 .1rem 2rem orange;
+        transform: scale(1.02);
+    }
+
+    .fiche input {
+        width: 68%;
+        height: 40px;
+        margin-top: 20px;
+        background-color: blanchedalmond;
+        margin-left: 28px;
+    }
+
+    .somme {
+        margin-top: -16px;
+        z-index: 3;
+        color: black;
+        margin-left: 26px;
+
+
+    }
+
+    .somme .p1,
+    .p2,
+    .p3 {
+        display: inline-block;
+
+        width: 100px;
+        text-align: center;
+        height: 30px;
+        background-color: blanchedalmond;
+    }
+
+    .somme .p1 {
+        border: 2px solid orange;
+        color: orange;
+    }
+
+    .somme .p2:hover {
+        border: 2px solid orange;
+    }
+
+    .somme .p3:hover {
+        border: 2px solid orange;
+    }
+
+    .fiche button {
+        width: 180px;
+        height: 30px;
+        font-size: 20px;
+        margin-top: -9px;
+        background-color: orange;
+        color: white;
+        margin-top: 20px;
+    }
+
+    .fiche button ion-icon {
+        border-radius: 20px;
+        background-color: white;
+        color: black;
+        margin-left: 9px;
+    }
+
+    .fiche button:hover {
+        background-color: white;
+        color: orange;
+    }
+
+
+
+    /* fin de la class contener --------------------------*/
+
+
+
+    /*-- debut footer ------------------------------------*/
+
+    footer {
+        margin-top: 80px;
+
+        background-color: black;
+        width: 1530px;
+        height: 300px;
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+
+    }
+
+    .foot2,
+    .foot1,
+    .foot3,
+    .foot4 {
+        margin-top: 20px;
+
+    }
+        .foot4{
+            margin-right: 30px;
+        }
+        .foot1{
+            margin-left: 20px;
+        }
+
+    .foot1 h1,
+    .foot1 p {
+        color: white;
+    }
+
+    .foot1 p {
+        margin-bottom: 30px;
+    }
+
+    .foot1 h1:hover {
+        color: blue;
+    }
+
+    .foot1 h1 span {
+        color: orange;
+        font-size: 55px;
+        font-weight: 700;
+    }
+
+    .foot2 .adress {
+        font-size: 35px;
+    }
+
+    .foot2 ul p {
+        margin-top: 26px;
+    }
+
+    .foot1 ul img {
+
+        margin-left: -10px;
+        margin-top: -20px;
+        margin-right: 10PX;
+
+    }
+        .foot3 tr a {
+            color: white;
+        }
+    
+        .foot2 a {
+            color: white;
+        }
+
+    .foot2 ul {
+        margin-top: 40px;
+    }
+
+    .foot2 {
+
+        color: white;
+        margin-left: 60px;
+    }
+
+    .foot4 .news {
+        font-size: 35px;
+    }
+
+    .foot3 p {
+        color: white;
+        font-size: 35px;
+    }
+
+    .foot3 table ion-icon {
+        color: white;
+    }
+
+    .foot3 {
+        margin-left: 60px;
+    }
+
+    .foot4 {
+        margin-left: 60px;
+        color: white;
+    }
+
+    .foot4 .conter {
+        border: 3px solid orange;
+        width: 260px;
+    }
+
+    .conter button {
+        width: 80px;
+        float: right;
+        border: 2px solid orange;
+        margin-top: -3px;
+        height: 20px;
+        margin-left: 8px;
+
+    }
+
+    .foot4 .conter button {
+        margin-top: -20px;
+    }
+
+    .foot4 .conter button:hover {
+        background-color: orange;
+        border-radius: 10px;
+    }
+
+    /*-- fin footer------------------------------------ */
+    .slider-2 {
+
+        width: 100%;
+        /* margin: 110px auto; */
+        overflow: hidden;
+        /* border: 1px solid white; */
+
+
+    }
+
+    .slider-2 .slider {
+        display: flex;
+        animation: slider-1 12s infinite ease-in-out;
+    }
+
+    .slider-2 p {
+
+        flex-shrink: 0;
+
+
+
+        color: rgb(251, 250, 246);
+        text-align: center;
+        font-size: 50px;
+        border-radius: 40px;
+
+
+
+        margin-top: -900px;
+        margin-left: -1200px;
+
+
+
+    }
+
+    .slider span {
+        font-size: 50px;
+        color: rgb(249, 247, 243);
+        margin-left: -200px;
+
+    }
+
+    @keyframes slider-1 {
+
+        0%,
+        20% {
+            transform: translateX(0);
+
+        }
+
+        25%,
+        45% {
+            transform: translateX(-100%);
+
+        }
+
+        50%,
+        70% {
+            transform: translateX(-200%);
+
+        }
+
+        75%,
+        95% {
+            transform: translateX(-300%);
+
+        }
+
+        100% {
+            transform: translateX(-400%);
+        }
+    }
+
+    .us {
+        margin-left: 600px;
+
+    }
+
+    .us p {
+        font-size: 80px;
+
+
+    }
+
+    .slider-2 div {
+        width: 100%;
+        height: 700px;
+
+        border-radius: 10px;
+
+        flex-shrink: 0;
+        padding: 70px 0;
+        align-items: center;
+    }
+
+    .slider-2 div img {
+        width: 100%;
+        height: 1000px;
+
+
+
+
+
+    }
+
+    .slider-2 img {
+        margin-top: -100px;
+        /* margin-left: -100px; */
+
+    }
+
+    /*- fin slide header ---------------------------- */
+

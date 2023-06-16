@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+/* --------------------Debut Navbar top--------------------------------------------- */
+.nav-top{
+    background-color: black;
+    position: fixed;
+    position: relative;
+    color: white;
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 5px;
+}
+.nav-top .addre p{
+    float: left;
+
+}
+.nav-top .addre{
+    margin-left: 15px;
+}
+.nav-top .addre p ion-icon{
+    margin-top: -2px;
+    margin-left: 10px;
+}
+
+.nav-top ion-icon{
+color: #ffffff;
+display: inline-block;
+float: right;
+margin-right: 10px;
+font-size: 23px;
+margin-top: 8px;
+}
+.nav-top p{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+/* --------------------Fin Navbar top--------------------------------------------- */
+
+/* --------------------Debut Navbar Principal--------------------------------------------- */
+header{
+    left: 0;
+    top: 0;
+    /* position: fixed; */
+  padding-top: 20px;
+    justify-content: space-between;
+    background-color: black;
+    display: flex;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    position: sticky;
+    z-index: 3;
+    height: 70px;
+}
+header .logo span{
+    color: orange;
+    font-size: 49px;
+}
+header .logo{
+    left: 0;
+    float: left;
+    color: white;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+header ul li {
+    display: inline-block;
+    position: relative;
+
+}
+
+
+
+header ul ul {
+    position: absolute;
+    top: 100%;
+    left: 1;
+    margin: 0;
+    padding: 0;
+    background-color: #0d0c0c;
+    display: none;
+    margin-left: -99px;
+    height: 180px;
+    width: 200px;
+
+}
+
+header ul li:hover>ul {
+    display: block;
+}
+
+header ul ul li {
+    display: block;
+
+    margin-top: 20px;
+}
+
+
+header ul li{
+    display: inline-block;
+    left: 0;
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 18px;
+}
+ .active a{
+    color: orange;
+}
+
+header ul li a:hover{
+    color: orange;
+    transition: 0.5s ease;
+}
+header ul{
+    left: 0;
+    margin-left:40%;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn-donate-now{
+    width: 150px;
+    height: 40px;
+    margin-left: 15px;
+    border: 1px solid orange;
+    border-radius: 5px;
+    background: transparent;
+    color: orange;
+    font-weight: bold;
+}
+
+.btn-donate-now:hover{
+    background-color: orange;
+    color: white;
+    transition: 0.5s ease;
+    font-weight: bold;
+}
+.icone_btn_donate{
+    font-size:20px;
+    margin-left: 10px;
+    background-color: white;
+    border-radius: 100px;
+    text-decoration: none;
+    margin-top: 5px;
+    color: orange;
+}
+.btn-donate-now .icone_btn_donate{
+    display: inline-block;
+}
+/* --------------------Fin Navbar Principal--------------------------------------------- */
+
+/* .carousel_image{
+    position: relative;
+    width: 100%;
+    height: 5px;
+    margin-top:0px
+}
+
+
+#text_image  {
+    text-align: center !important;  
+}
+ */
+
+/* --------------------------------------------------------- */
+
+
+/* ---------------Debut ce que nous faisons--------------------- */
+.what_we_do{
+    margin-top: 100px;
+    background-color: rgb(255, 255, 255);
+}
+
+.what_we_do .text .phrase{
+    background-color: rgb(245, 202, 213);
+    background-size:50px;
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    border-radius: 100px;
+    color: orange;
+}
+
+.what_we_do .text .titre{
+    font-size: 40px;
+    font-weight: bold;
+}
+.what_we_do .text{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.what_we_do .contenair{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* ---------------Fin ce que nous faisons--------------------- */
+
+
+/* ------------------Debut colone1-------------------------- */
+.what_we_do .contenair .col1{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    box-shadow: 5px 5px 5px 5px black;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+.what_we_do .contenair .col1 img{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.what_we_do .contenair .col1 button{
+    border: 1px solid orange;
+    border-radius: 10px;
+    background: transparent;
+    color: orange;
+    width: 150px;
+    height: 40px;
+    margin-top: 100px;
+    /* margin-bottom: -50px; */
+}
+.what_we_do .contenair .col1 button:hover{
+    background-color: orange;
+    color: white;
+    transition: 0.5s ease;
+}
+/* --------------------Fin colone1--------------------------- */
+
+/* --------------------Debut colone2------------------------- */
+.what_we_do .contenair .col2{
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    box-shadow: 5px 5px 5px 5px black;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+.what_we_do .contenair .col2 img{
+    width: 300px;
+    height: 200px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.what_we_do .contenair .col2 button{
+    border: 1px solid orange;
+    border-radius: 10px;
+    background: transparent;
+    color: orange;
+    width: 150px;
+    height: 40px;
+    margin-top: 100px;
+}
+.what_we_do .contenair .col2 button:hover{
+    background-color: orange;
+    color: white;
+    transition: 0.5s ease;
+}
+/* --------------Fin colone2--------------------- */
+
+/* --------------Debu colone3--------------------- */
+.what_we_do .contenair .col3{
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    box-shadow: 5px 5px 5px 5px black;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+
+.what_we_do .contenair .col3 img{
+    width: 300px;
+    height: 200px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.what_we_do .contenair .col3 button{
+    border: 1px solid orange;
+    border-radius: 10px;
+    background: transparent;
+    color: orange;
+    width: 150px;
+    height: 40px;
+    margin-top: 100px;
+}
+.what_we_do .contenair .col3 button:hover{
+    background-color: orange;
+    color: white;
+    transition: 0.5s ease;
+}
+/* --------------Fin colone3--------------------- */
+
+
+/* -----------------------Debut des carousels------------------------------------ */
+ .swiper {
+    position: relative;
+    width: 100%;
+    height:500px;
+  }
+/*  
+.s3 img{
+    background-size: cover;
+}
+.s1 img{
+    background-size: cover;
+}
+.s2 img{
+    background-size: cover;
+} */
+   .s1, .s2, .s3 {
+    width: 100%;font-size: 4rem;
+    font-weight: 700;
+    color: #ffffff;
+   }
+   
+ .s1 {
+    background-color: brown;
+   }
+   .s2  {
+    background-color: black;
+   }
+   .s3 {
+    background-color: lime;
+   }
+
+/* -----------------------Fin des carousels------------------------------------ */
+

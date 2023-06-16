@@ -1,0 +1,399 @@
+
+    /* debut de la class blo ----------------------------------*/
+
+    .what h2 {
+        color: black;
+
+        font-size: 36px;
+        text-decoration: none;
+
+    }
+
+    .what {
+        width: 100%;
+        height: 150px;
+        background-color: white;
+        text-align: center;
+
+
+
+    }
+
+    .block {
+        display: grid;
+        grid-template-columns: 30% 5% 30% 5% 30%;
+        height: 500px;
+        margin-top: 100px;
+
+        width: 100%;
+
+    }
+
+    .block button {
+        z-index: 3;
+        width: 180px;
+        height: 60px;
+        background-color: white;
+        border: 2px solid orange;
+        position: absolute;
+        margin-top: 180px;
+        margin-left: -320px;
+        border-radius: 20px;
+
+    }
+
+
+    .block button ion-icon {
+        background-color: orange;
+        border-radius: 20%;
+    }
+
+    .block button ion-icon:hover {
+        background-color: white;
+    }
+
+    .block button:hover {
+        background-color: orange;
+        border: 2px solid blanchedalmond;
+    }
+
+    .block h2 {
+        font-size: 20px;
+    }
+
+    .container {
+        width: 100%;
+        height: 1600px;
+        position: relative;
+    }
+
+    .blo {
+        margin-top: 50px;
+    }
+
+    .bock1,
+    .bock2,
+    .bock3 {
+        border-top: 5px solid orange;
+        border-radius: 15px;
+
+        text-align: center;
+        /* border-left: 9px solid orangered; */
+        width: 100%;
+        margin-left: 20px;
+
+    }
+
+    .block h3 {
+        text-align: center;
+        margin-top: -10px;
+        background-color: orange;
+        width: 140px;
+        height: 30px;
+
+        border-radius: 12px;
+    }
+
+    i p {
+        display: inline;
+        /* flex-direction: column; */
+        /* align-items: center; */
+        justify-content: space-evenly;
+        /* flex-direction: row; */
+        flex-direction: row-reverse;
+
+
+
+
+    }
+
+    i {
+
+        float: left;
+    }
+
+    .progress {
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 10px;
+        margin-top: 70px;
+        width: 90%;
+        margin-left: 10px;
+
+
+
+    }
+
+    .value {
+        background-color: orange;
+        padding: 6px;
+        width: 90%;
+
+
+    }
+
+    .block .bock1 img,
+    .bock2 img,
+    .bock3 img {
+        margin-top: 10px;
+        width: 100%;
+        height: 400px;
+        margin-left: -5px;
+        z-index: 2;
+
+    }
+
+    .bock3 img:hover,
+    .bock1 img:hover,
+    .bock2 img:hover {
+
+
+
+        border-radius: 5px;
+        transition: 1.3s ease;
+        opacity: 0.5;
+
+
+
+    }
+
+    /* fin de la class blo-------------------------------- */
+
+
+    /*-- -- debur de slides --------------------------------------*/
+
+
+
+
+
+
+    .slider-2 {
+
+        width: 100%;
+        /* margin: 110px auto; */
+        overflow: hidden;
+        /* border: 1px solid white; */
+
+
+    }
+
+    .slider-2 .slider {
+        display: flex;
+        animation: slider-1 12s infinite ease-in-out;
+    }
+
+    .slider-2 p {
+
+        flex-shrink: 0;
+
+        width: 100%;
+        color: rgb(252, 251, 248);
+        text-align: center;
+        font-size: 39px;
+        border-radius: 40px;
+
+
+
+        margin-top: -700px;
+
+
+    }
+
+    .slider-2 span {
+        font-size: 40px;
+
+    }
+
+    @keyframes slider-1 {
+
+        0%,
+        20% {
+            transform: translateX(0);
+
+        }
+
+        25%,
+        45% {
+            transform: translateX(-100%);
+
+        }
+
+        50%,
+        70% {
+            transform: translateX(-200%);
+
+        }
+
+        75%,
+        95% {
+            transform: translateX(-300%);
+
+        }
+
+        100% {
+            transform: translateX(-400%);
+        }
+    }
+
+    .slider-2 div {
+        width: 100%;
+        height: 700px;
+
+        border-radius: 10px;
+
+        flex-shrink: 0;
+        padding: 70px 0;
+        align-items: center;
+    }
+
+    .slider-2 div img {
+        width: 100%;
+        height: 900px;
+
+
+
+
+    }
+
+    .us p {
+        margin-left: 40px;
+        font-size: 70px;
+        color: orange;
+    }
+
+    .slider-2 img {
+        margin-top: -100px;
+        /* margin-left: -100px; */
+
+    }
+
+    /*- fin slide header ---------------------------- */
+
+
+    /*-- debut footer ------------------------------------*/
+
+    footer {
+        margin-top: 80px;
+
+        background-color: black;
+        width: 1530px;
+        height: 300px;
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        margin-left: 30px;
+    }
+
+    .foot2,
+    .foot1,
+    .foot3,
+    .foot4 {
+        margin-top: 20px;
+
+    }
+        .foot1{
+            margin-left: 20px;
+        }
+                .foot4{
+                    margin-right: 30px;
+                }
+
+    .foot1 h1,
+    .foot1 p {
+        color: white;
+    }
+
+    .foot1 p {
+        margin-bottom: 30px;
+    }
+
+    .foot1 h1:hover {
+        color: blue;
+    }
+
+    .foot1 h1 span {
+        color: orange;
+        font-size: 55px;
+        font-weight: 700;
+    }
+
+    .foot2 .adress {
+        font-size: 35px;
+    }
+
+    .foot2 ul p {
+        margin-top: 26px;
+    }
+
+    .foot1 ul img {
+
+        margin-left: -10px;
+        margin-top: -20px;
+        margin-right: 10PX;
+
+    }
+
+    .foot2 ul {
+        margin-top: 40px;
+    }
+
+    .foot2 {
+
+        color: white;
+        margin-left: 60px;
+    }
+
+    .foot4 .news {
+        font-size: 35px;
+    }
+
+    .foot3 p {
+        color: white;
+        font-size: 35px;
+    }
+
+    .foot3 table ion-icon {
+        color: white;
+    }
+
+    .foot3 {
+        margin-left: 60px;
+    }
+
+    .foot4 {
+        margin-left: 60px;
+        color: white;
+    }
+
+    .foot4 .conter {
+        border: 3px solid orange;
+        width: 260px;
+    }
+
+    .conter button {
+        width: 80px;
+        float: right;
+        border: 2px solid orange;
+        margin-top: -3px;
+        height: 20px;
+        margin-left: 8px;
+
+    }
+    .foot3 tr a{
+        color: white;
+    }
+    .foot2 a{
+        color: white;
+    }
+
+    .foot4 .conter {
+        margin-top: 30px;
+    }
+
+    .foot4 .conter button:hover {
+        background-color: orange;
+        border-radius: 10px;
+    }
+   
+
+    /*-- fin footer------------------------------------ */
+    

@@ -1,0 +1,332 @@
+
+    /* debut des slides testimoniales----------------------------*/
+
+
+    .slider-2 {
+
+        width: 100%;
+        /* margin: 110px auto; */
+        overflow: hidden;
+       
+
+
+    }
+
+    .slider-2 .slider {
+        display: flex;
+        animation: slider-1 12s infinite ease-in-out;
+    }
+
+    .slider-2 p {
+
+        flex-shrink: 0;
+        padding: 70px 0;
+        width: 100%;
+        color: rgb(252, 250, 248);
+        text-align: center;
+        font-size: 60px;
+        border-radius: 40px;
+
+
+        margin-top: -700px;
+
+
+    }
+
+    .slider-2 span {
+        font-size: 40px;
+    }
+
+    @keyframes slider-1 {
+
+        0%,
+        20% {
+            transform: translateX(0);
+
+        }
+
+        25%,
+        45% {
+            transform: translateX(-100%);
+
+        }
+
+        50%,
+        70% {
+            transform: translateX(-200%);
+
+        }
+
+        75%,
+        95% {
+            transform: translateX(-300%);
+
+        }
+
+        100% {
+            transform: translateX(-400%);
+        }
+    }
+
+    .slider-2 div {
+        width: 100%;
+        height: 700px;
+
+        border-radius: 10px;
+
+        flex-shrink: 0;
+        padding: 70px 0;
+        align-items: center;
+    }
+
+    .slider-2 div img {
+        width: 100%;
+        height: 1000px;
+
+
+
+
+    }
+
+    .slider-2 img {
+        margin-top: -100px;
+    }
+
+    /*- fin slide header ---------------------------- */
+
+
+    .slider-1 {
+
+        max-width: 800px;
+        margin: 100px auto;
+        overflow: hidden;
+     
+        margin-top: 300px;
+
+    }
+
+
+
+    .slider-1 .slider {
+        display: flex;
+        animation: slider-1 12s infinite ease-in-out;
+    }
+
+        .slider-1 .slider p {
+        background-color: orange;
+        flex-shrink: 0;
+        padding: 70px 0;
+        width: 100%;
+        color: rgb(254, 251, 251);
+        text-align: center;
+        font-size: 25px;
+        border-radius: 40px;
+
+        margin-top: 80px;
+        margin-left: 60px;
+
+
+    }
+
+    .slider-1 span {
+        font-size: 40px;
+        color: white;
+    }
+
+    @keyframes slider-1 {
+
+        0%,
+        20% {
+            transform: translateX(0);
+
+        }
+
+        25%,
+        45% {
+            transform: translateX(-100%);
+
+        }
+
+        50%,
+        70% {
+            transform: translateX(-200%);
+
+        }
+
+        75%,
+        95% {
+            transform: translateX(-300%);
+
+        }
+
+        100% {
+            transform: translateX(-400%);
+        }
+    }
+
+    .slider-1 div {
+        width: 100%;
+        height: 500px;
+
+        border-radius: 10px;
+
+        flex-shrink: 0;
+        padding: 70px 0;
+        align-items: center;
+    }
+
+    .slider-1 .slider div img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin-left: 280px;
+        border: 6px solid orange;
+
+
+    }
+
+    .slider-1 img {
+        margin-top: -60px;
+    }
+
+    .slider-1 i {
+        margin-left: 350px;
+    }
+
+
+    /* fin des slides-testimoniale---------------------------------- */
+    footer {
+        margin-top: 80px;
+
+        background-color: black;
+        width: 1530px;
+        height: 350px;
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        background-size: cover;
+        position: absolute;
+        margin-left: -350px;
+    }
+
+    .foot2,
+    .foot1,
+    .foot3,
+    .foot4 {
+        margin-top: -20px;
+        margin-left: 20px;
+
+
+    }
+        .foot1{
+            margin-left: 20px;
+        }
+        .foot4{
+            margin-right: 30px;
+        }
+
+    .foot1 h1,
+    .foot1 p {
+        color: white;
+
+    }
+
+    .foot1 h1 {
+        font-size: 56px;
+    }
+
+    .foot1 p {
+        margin-bottom: 30px;
+    }
+
+    .foot1 h1:hover {
+        color: blue;
+    }
+
+    .foot1 h1 span {
+        color: orange;
+        font-size: 55px;
+        font-weight: 700;
+    }
+
+    .foot2 .adress {
+        font-size: 35px;
+    }
+
+    .foot2 ul p {
+        margin-top: 26px;
+    }
+
+    .foot1 ul img {
+
+        margin-left: -10px;
+        margin-top: -20px;
+        margin-right: 10PX;
+
+    }
+
+    .foot2 ul {
+        margin-top: 40px;
+    }
+
+    .foot2 {
+
+        color: white;
+        margin-left: 60px;
+        margin-top: -20px;
+    }
+
+    .foot4 .news {
+        font-size: 35px;
+        margin-top: -90px;
+    }
+
+    .foot3 p {
+        color: white;
+        font-size: 35px;
+    }
+
+    .foot3 table ion-icon {
+        color: rgb(248, 247, 247);
+        margin-left: 20px;
+
+    }
+
+    .foot3 {
+        margin-left: 60px;
+    }
+
+    .foot4 {
+        margin-left: 60px;
+        color: white;
+    }
+
+    .foot4 .contere {
+
+        width: 260px;
+        height: 0px;
+    }
+
+    .foot4 .contere button {
+        width: 80px;
+        float: right;
+        border: 2px solid orange;
+
+    }
+        .foot3 tr a {
+            color: white;
+        }
+    
+        .foot2 a {
+            color: white;
+        }
+
+    .foot4 .contere {
+        margin-top: -590px;
+    }
+
+    .foot4 .contere button:hover {
+        background-color: orange;
+        border-radius: 10px;
+    }
+
+    

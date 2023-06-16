@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+
+    <style>
+
+        
+
+
+header ul li {
+  display: inline-block;
+  position: relative;
+  
+}
+
+
+
+header ul ul {
+  position: absolute;
+  top: 100%;
+  left: 1;
+  margin: 0;
+  padding: 0;
+  background-color: #0d0c0c;
+  display: none;
+  margin-left: -350px;
+  height: 180px;
+  width: 200px;
+ 
+}
+
+header ul li:hover > ul {
+  display: block;
+}
+
+header ul ul li {
+  display: block;
+  
+  margin-top: 20px;
+}
+
+    </style>
+</head>
+<body>
+    
+
+   
+<header>
+    <a class="logo" href="#">Chari<span>Team</span></a>
+    <ul class="nav-bar">
+        <li><a href="index.html">Home</a></li>
+        <li class="active"><a href="about2.html">About</a></li>
+        <li><a href="futur cause.html">Causes</a></li>
+        <li><a href="#">Pages</a>
+        <ul>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Members</a></li>
+            <li><a href="#">Doner Now</a></li>
+            <li><a href="#">Slides</a></li>
+
+        </ul></li>
+        <li><a href="contact.html">Contact</a></li>
+        <button class="btn-donate-now">Donate Now<ion-icon class="icone_btn_donate"
+                name="arrow-forward-outline"></ion-icon></button>
+    </ul>
+</header>
+</body>
+</html>

@@ -1,0 +1,309 @@
+
+ /*-- debut footer ------------------------------------*/
+
+ footer {
+     margin-top: 80px;
+     background-color: black;
+     width: 1530px;
+     height: 300px;
+     display: grid;
+     grid-template-columns: 25% 25% 25% 25%;
+
+ }
+
+ .foot2,
+ .foot1,
+ .foot3,
+ .foot4 {
+     margin-top: 20px;
+
+ }
+ .foot1{
+    margin-left: 20px;
+ }
+ .foot4{
+    margin-right: 30px;
+ }
+
+ .foot1 h1,
+ .foot1 p {
+     color: white;
+ }
+
+ .foot1 p {
+     margin-bottom: 30px;
+ }
+
+ .foot1 h1:hover {
+     color: blue;
+ }
+
+ .foot1 h1 span {
+     color: orange;
+     font-size: 55px;
+     font-weight: 700;
+ }
+
+ .foot2 .adress {
+     font-size: 35px;
+ }
+
+ .foot2 ul p {
+     margin-top: 26px;
+ }
+
+ .foot1 ul img {
+
+     margin-left: -10px;
+     margin-top: -20px;
+     margin-right: 10PX;
+
+ }
+
+ .foot2 ul {
+     margin-top: 40px;
+ }
+
+ .foot2 {
+
+     color: white;
+     margin-left: 60px;
+ }
+
+ .foot4 .news {
+     font-size: 35px;
+ }
+
+ .foot3 p {
+     color: white;
+     font-size: 35px;
+ }
+
+ .foot3 table ion-icon {
+     color: white;
+ }
+ .foot3 tr a {
+     color: white;
+ }
+
+ .foot2 a {
+     color: white;
+ }
+
+ .foot3 {
+     margin-left: 60px;
+ }
+
+ .foot4 {
+     margin-left: 60px;
+     color: white;
+ }
+
+ .foot4 .conter {
+     border: 3px solid orange;
+     width: 260px;
+ }
+
+ .conter button {
+     width: 80px;
+     float: right;
+     border: 2px solid orange;
+     margin-top: -3px;
+     height: 20px;
+     margin-left: 8px;
+
+ }
+
+ .foot4 .conter button {
+     margin-top: -20px;
+ }
+
+ .foot4 .conter button:hover {
+     background-color: orange;
+     border-radius: 10px;
+ }
+
+ /*-- fin footer------------------------------------ */
+ .slider-2 {
+
+     width: 100%;
+     /* margin: 110px auto; */
+     overflow: hidden;
+     /* border: 1px solid white; */
+
+
+ }
+
+ .slider-2 .slider {
+     display: flex;
+     animation: slider-1 12s infinite ease-in-out;
+ }
+
+ .slider-2 p {
+
+     flex-shrink: 0;
+     color: rgb(251, 250, 247);
+     text-align: center;
+     font-size: 50px;
+     border-radius: 40px;
+     margin-top: -900px;
+     margin-left: -1200px;
+ }
+
+ .slider span {
+     font-size: 50px;
+     color: orange;
+     margin-left: -200px;
+ }
+
+ @keyframes slider-1 {
+
+     0%,
+     20% {
+         transform: translateX(0);
+
+     }
+
+     25%,
+     45% {
+         transform: translateX(-100%);
+
+     }
+
+     50%,
+     70% {
+         transform: translateX(-200%);
+
+     }
+
+     75%,
+     95% {
+         transform: translateX(-300%);
+
+     }
+
+     100% {
+         transform: translateX(-400%);
+     }
+ }
+
+ .us {
+     margin-left: 600px;
+
+ }
+
+ .us p {
+     font-size: 80px;
+
+
+ }
+
+ .slider-2 div {
+     width: 100%;
+     height: 700px;
+     border-radius: 10px;
+     flex-shrink: 0;
+     padding: 70px 0;
+     align-items: center;
+ }
+
+ .slider-2 div img {
+     width: 100%;
+     height: 1000px;
+ }
+
+ .slider-2 img {
+     margin-top: -100px;
+     /* margin-left: -100px; */
+ }
+
+ /*- fin slide header ---------------------------- */
+ /* debut de la class member -------------------------*/
+ .col {
+     display: grid;
+     grid-template-columns: 25% 25% 25% 25%;
+     height: 500px;
+
+     width: 100%;
+     margin-top: 160px;
+ }
+
+ .member {
+     margin-top: 90px;
+     margin-left: 20px;
+ }
+
+ .col img {
+     height: 400px;
+     width: 100%;
+     margin-left: -1px;
+     margin-top: -2px;
+     border-radius: 8px;
+     transition: .5s ease;
+ }
+
+ .member ion-icon {
+     margin-left: 15px;
+ }
+
+ .col img:hover {
+     box-shadow: 0 .1rem 2rem orange;
+     transform: scale(1.02);
+ }
+
+ .col1 h2,
+ .col1 h3 {
+     margin-left: 70px;
+ }
+
+ .col2 h2,
+ .col2 h3 {
+     margin-left: 70px;
+ }
+
+ .col3 h2,
+ .col3 h3 {
+     margin-left: 70px;
+ }
+
+ .col4 h2,
+ .col4 h3 {
+     margin-left: 70px;
+ }
+
+ .col5 h2,
+ .col5 h3 {
+     margin-left: 70px;
+ }
+
+ .col1,
+ .col2,
+ .col3,
+ .col4,
+ .col5 {
+     border: 1px solid rgb(18, 17, 15);
+     margin-left: 10px;
+     border-radius: 8px;
+ }
+
+ .col1:hover {
+     border-bottom: 8px solid orange;
+ }
+
+ .col2:hover {
+     border-bottom: 8px solid orange;
+ }
+
+ .col3:hover {
+     border-bottom: 8px solid orange;
+ }
+
+ .col4:hover {
+     border-bottom: 8px solid orange;
+ }
+
+ .member h2,
+ .member h1 {
+     text-align: center;
+ }
+ /* fin de la class member------------------------------------------- */
